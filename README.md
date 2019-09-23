@@ -5,7 +5,7 @@
 
 This library provide helper to use po files (gettext) between ts files.
 
-- example
+### Example
 
 ```python
 
