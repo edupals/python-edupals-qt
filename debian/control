@@ -1,0 +1,19 @@
+Source: edupals-qt
+Section: python
+Priority: optional
+Maintainer: Raul Rodrigo Segura <raurodse@gmail.com>
+Build-Depends: debhelper (>= 10),
+               dh-python,
+               python3-setuptools,
+               python3-all
+
+Standards-Version: 4.1.2
+Homepage: http://lliurex.net
+#Vcs-Git: https://anonscm.debian.org/git/collab-maint/edupals-qt.git
+Vcs-Browser: https://github.com/edupals/python-edupals-qt
+
+Package: python-edupals-qt
+Architecture: all
+Depends: ${shlibs:Depends}, ${misc:Depends}, ${python3:Depends}, python3, gettext, python-pyqt5
+Description: Helpers to build qt apps in python
+ Libraries to build qt apps in python. For example: replace translate engine to gettext
