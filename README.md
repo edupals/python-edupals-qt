@@ -1,5 +1,12 @@
 # Python helpers to build qt apps
 
+
+## Translators
+
+This library provide helper to use po files (gettext) between ts files.
+
+- example
+
 ```python
 
 from edupals.qt.translator import QTranslatorGettext
@@ -13,8 +20,6 @@ app.installTranslator(qtg)
 app.exec_()
 
 ```
-
-## Translators
 
 ### Extract strings from ui file
 
