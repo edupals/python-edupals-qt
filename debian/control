@@ -6,7 +6,6 @@ Build-Depends: debhelper (>= 10),
                dh-python,
                python3-setuptools,
                python3-all
-
 Standards-Version: 4.1.2
 Homepage: http://lliurex.net
 #Vcs-Git: https://anonscm.debian.org/git/collab-maint/edupals-qt.git
